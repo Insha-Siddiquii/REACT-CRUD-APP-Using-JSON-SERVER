@@ -1,0 +1,85 @@
+.row {
+    padding: 5px 89px;
+    margin: 3px 3px;
+}
+ .cards {
+        display: flex;
+        flex-flow: row wrap;
+      
+      }
+.card {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 0 500px; /* Play with this value */
+        
+        background: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-family: arial;
+        margin: 1rem 3em;
+        
+        
+      }
+@media screen and (min-width: 40em) {
+        .card {
+           max-width: calc(50% -  1em);
+        }
+    }
+    
+@media screen and (min-width: 60em) {
+        .card {
+            max-width: calc(25% - 1em);
+        }
+    }
+.card p {
+        padding: 25px;
+        flex: 1; /* <-- this makes all the difference */
+
+      }
+.button {
+        border: none;
+        outline: 0;
+        padding: 12px 0px;
+        color: white;
+        background-color: dodgerblue;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      
+      }
+.button:hover {
+          opacity: 0.7;
+      }
+.type {
+        color: grey;
+        font-size: 22px;
+      }
+.address {
+        color: black;
+        font-size: 32px;
+      }
+.imgWidth {
+    width : 100%;
+}
+.rest{
+    font-size: 33px;
+}
+.address{
+    font-size: 25px;
+}
+.button-View {
+    border: none;
+    outline: 0;
+    padding: 12px 0px;
+    color: white;
+    background-color: dodgerblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  
+  }
+.button-View:hover {
+      opacity: 0.7;
+  }
